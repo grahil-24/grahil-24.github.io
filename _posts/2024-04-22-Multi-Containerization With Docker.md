@@ -13,7 +13,7 @@ In this blog post, we'll explore how to containerize a full-stack application us
 4. [Getting Started](#getting-started)
 5. [Containerizing a Full-Stack Application](#containerizing-a-full-stack-application)
    - [The Frontend](#the-frontend)
-   - [Backend](#backend)
+   - [The Backend](#the-backend)
    - [The database](#the-database)
 ## Introduction to Docker
 
