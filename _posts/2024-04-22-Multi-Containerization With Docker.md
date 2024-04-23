@@ -1,5 +1,5 @@
 ---
-title: "Multicontainerization with Docker"
+title: "Multi-containerization with Docker"
 ---
 
 
@@ -44,7 +44,7 @@ Containerization offers several benefits for developing and deploying applicatio
 
 ## Getting Started:
 
-Clone the repository from [this repo](https://github.com/grahil-24/Containerizing-Full-Stack-App.git) and run the command "npm install" inside the Server and Frontend Folder to install the dependencies. 
+Clone the repository from [this repo](https://github.com/grahil-24/Containerizing-Full-Stack-App.git). This was a project made by me and my friend [Vaidik Pandya](https://github.com/vaidik24). Run the command "npm install" inside the Server and Frontend Folder to install the dependencies. 
 
     npm install
 
@@ -95,7 +95,7 @@ After cloning the repo and installing the needed dependencies, we are going to s
     
     Replace the name of image with yours. The p flag is used to expose the container port 3000 to the host system's 3000 port, so that we can access it outside the container. Try it out in your browser by typing "http://localhost:3000" and see the results!
 
-    ![My Image](../assets/images/dockerss2.png) 
+    ![My Image](../assets/images/dockerss22.png) 
 
     You wont be able to do anything on this app, as the backend server is not up yet. So lets do it, and using docker!!!
 
@@ -201,12 +201,15 @@ After cloning the repo and installing the needed dependencies, we are going to s
 
         docker compose down
 
+6. We can also observe that docker has automatically removed all the 3 containers. You can verify it by running the command - docker container ls
 
     ![My Image](../assets/images/dockerss7.png){:height="950px" width="600px"}
 
+
+
 ### VOILA, WE HAVE SUCCESSFULLY CONTAINERIZED A FULL-FLEDGED WEB-APP!!
 
-6. We can also observe that docker has automatically removed all the 3 containers. You can verify it by running the command - docker container ls
+
 
 
 
